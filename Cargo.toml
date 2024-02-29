@@ -6,8 +6,8 @@ authors = ["Aaron Askew <aaronaskew@gmail.com>"]
 edition = "2021"
 exclude = ["dist", "build", "assets", "credits"]
 
-[workspace]
-members = ["mobile"]
+# [workspace]
+# members = ["mobile"]
 
 [profile.dev.package."*"]
 opt-level = 3
